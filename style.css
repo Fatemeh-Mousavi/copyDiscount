@@ -1,0 +1,93 @@
+@import url(./font.css);
+::selection{
+    background-color: aqua;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "rubic";
+}
+body{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+p{ 
+     padding-right: 10px;
+    margin-top: 10%;
+}
+.container{
+    width: 25rem;
+    height: 16rem;
+    padding-right:10px;
+    margin-top: 10%;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 5px 15px 0 rgba(20, 22, 30, 0.2);
+}
+.iconSnapp{
+    margin-right:10px;
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 15px;
+    width: 5rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.iconSnapp img{
+    margin-top: 3px;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 10px;
+}
+.date{
+    align-items: center;
+    width: 78%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.date p{
+    width: max-content;
+    height: max-content;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 8px;
+
+}
+.offButtonContainer{
+    margin-top: 30px;
+    width: 95%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #cdb4db;
+}
+.severalTimes{
+    margin-right: 5px;
+}
+.text{
+    color: #a09893;
+    text-align: center;
+    width: 13rem;
+    height: 2.2rem;
+    padding: 10px;
+    margin-bottom: 35px;
+    background-color: #ffffff;
+    border-radius: 5px;
+
+}
+.text-button{
+    color: #593f62;
+    width: 5rem;
+    height: 3rem;
+    border: none;
+    background-color: #cdb4db;
+    cursor: pointer;
+}
